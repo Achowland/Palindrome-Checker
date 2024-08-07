@@ -1,0 +1,97 @@
+* {
+    font-family: "Palanquin Dark", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #00401a;
+    border-radius: 5px 50px
+}
+
+.instruction-div {
+    width: min(150vw, 450px);
+    min-height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 50px 10px #00ad25;
+}
+
+label {
+    margin-bottom: 20px;
+    color: #0a0a23;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #00ad25;
+}
+
+.btn {
+    cursor: pointer;
+    width: 90px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 50px;
+    color: #ffffff;
+    background-color: #00ad25;
+}
+
+.results-div {
+    min-height: 50px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    color: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+.definition {
+    width: min(150vw, 450px);
+    min-height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 5px 50px;
+    background-color: #00401a;
+}
+
+.definition-text {
+    text-align: center;
+}
